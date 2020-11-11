@@ -2,17 +2,32 @@
   "name": "batch-state",
   "version": "1.0.0",
   "description": "A small module to simplify the usage of React's useState hook.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "babel src/index -d dist"
+    "build": "babel src/index.js -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RealSGII2/batch-state.git"
+  },
+  "keywords": [
+    "react",
+    "util",
+    "client",
+    "state"
+  ],
   "author": "RealSGII2",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.12.1",
-    "@babel/core": "^7.12.3"
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
   },
   "dependencies": {
     "react": "^17.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/RealSGII2/batch-state/issues"
+  },
+  "homepage": "https://github.com/RealSGII2/batch-state"
 }
